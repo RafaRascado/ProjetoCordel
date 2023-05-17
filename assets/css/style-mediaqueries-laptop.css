@@ -1,0 +1,166 @@
+@media screen and (max-width: 1124px) {
+    header {
+        background-color: black;
+        height: 280px;
+        text-align: center;
+        position: relative;
+    }
+
+    header>h1 {
+        font-variant: small-caps;
+        padding-top: 80px;
+        font-weight: bolder;
+        font-size: 6em;
+        font-family: var(--fontTitulo);
+        color: white;
+    }
+
+    header>p {
+        color: white;
+        font-weight: normal;
+        font-size: 1em;
+        font-family: var(--fontParagrafo);
+    }
+
+    header>p>a {
+        text-decoration: none;
+        color: white;
+    }
+
+    header>p>a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    main {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #primeiroCordel {
+        padding-left: 30px;
+        padding-bottom: 75px;
+    }
+
+
+    #primeiroCordel>article>p {
+        font-size: 600;
+        line-height: 2.04em;
+        font-size: 2em;
+        font-family: var(--fontCordel);
+    }
+
+    #segundoCordel {
+        padding-left: 0;
+        background: rgba(0, 0, 0, 0.648) url('../Images/background001.jpg') fixed no-repeat;
+        background-position: center right;
+        background-size: cover;
+        padding-bottom: 50px;
+    }
+
+    #segundoCordel>article {
+        padding: 50px 0 0 30px;
+    }
+
+
+    #segundoCordel>article>p {
+        padding: 10px 0 10px 10px;
+        background-color: rgba(0, 0, 0, 0.555);
+        width: 50%;
+        color: white;
+        font-size: 600;
+        font-size: 2em;
+        font-family: var(--fontCordel);
+    }
+
+    #terceiroCordel {
+        padding-left: 30px;
+        padding-top: 75px;
+    }
+
+
+    #terceiroCordel>article>p {
+        font-size: 600;
+        line-height: 2.04em;
+        font-size: 2em;
+        font-family: var(--fontCordel);
+    }
+
+    #quartoCordel {
+        padding-left: 30px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #quartoCordel>article>p {
+        font-size: 600;
+        line-height: 2.04em;
+        font-size: 2em;
+        font-family: var(--fontCordel);
+    }
+
+    #quintoCordel {
+        padding-bottom: 50px;
+        padding-left: 0;
+        background: black url('../Images/background002.jpg') fixed no-repeat;
+        background-position: center right;
+        background-size: cover;
+    }
+
+    #quintoCordel>article {
+        padding: 50px 0 0 30px;
+    }
+
+
+    #quintoCordel>article>p {
+        padding: 10px 10px 10px;
+        background-color: rgba(0, 0, 0, 0.555);
+        width: 50%;
+        color: white;
+        font-size: 600;
+        font-size: 2em;
+        font-family: var(--fontCordel);
+    }
+
+    #sextoCordel {
+        padding-top: 75px;
+        padding-left: 30px;
+    }
+
+
+    #sextoCordel>article>p {
+        font-size: 600;
+        line-height: 2.04em;
+        font-size: 2em;
+        font-family: var(--fontCordel);
+    }
+
+    #setimoCordel {
+        padding-top: 75px;
+        padding-left: 30px;
+    }
+
+
+    #setimoCordel>article>p {
+        font-size: 600;
+        line-height: 2.04em;
+        font-size: 2em;
+        font-family: var(--fontCordel);
+    }
+
+    footer {
+        background-color: black;
+        height: 40px;
+    }
+
+    footer>p {
+        padding-top: 5px;
+        font-family: var(--fontParagrafo);
+        color: white;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+
+
+}
